@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": "next/core-web-vitals",
+	"rules": {
+		// NextJs specific fix: suppress errors for missing 'import React' in files for nextjs
+		"react/react-in-jsx-scope": "off",
+		// NextJs specific fix: allow jsx syntax in js files
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], //should add ".ts" if typescript project
+		"react/display-name": 1,
+		"no-unused-vars": "error"
+	}
 }
