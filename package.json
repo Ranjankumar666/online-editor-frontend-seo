@@ -5,7 +5,9 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"export": "next export -o ./build",
+		"export:dev": "next export"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^1.7.4",
