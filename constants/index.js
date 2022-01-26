@@ -36,5 +36,5 @@ export const LANGUAGES = {
 	},
 };
 
-export const DEFAULT_THEME = 'amy';
+export const DEFAULT_THEME = 'blackboard';
 export const EXTENSIONS = Object.values(LANGUAGES).map((l) => l.ext);
