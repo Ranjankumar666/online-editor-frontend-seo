@@ -1,5 +1,5 @@
 const comment =
-	'This is a code playground\nWe run three languages typescript, javascript, c++, c and python';
+	'This is a code playground\nWe run languages like typescript, javascript,java ,  c++, c and python';
 
 const dataJava = `class Main
 {
